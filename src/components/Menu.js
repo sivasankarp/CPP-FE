@@ -18,13 +18,13 @@ export default class Menu extends Component {
                       {/* Add icons to the links using the .nav-icon class
                       with font-awesome or any other icon font library */}
                       <li className="nav-item">
-                        <a href="https://cpp-fe.s3.eu-west-2.amazonaws.com/products" className="nav-link" ><i className="fas fa-circle nav-icon" /><p>Products</p></a>
+                        <a href="https://main.d5h7r8fqfqlck.amplifyapp.com/products" className="nav-link" ><i className="fas fa-circle nav-icon" /><p>Products</p></a>
                       </li>
                       <li className="nav-item">
-                        <a href="https://cpp-fe.s3.eu-west-2.amazonaws.com/indications" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Indication</p></a>
+                        <a href="https://main.d5h7r8fqfqlck.amplifyapp.com/indications" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Indication</p></a>
                       </li>
                       <li className="nav-item">
-                        <a href="https://cpp-fe.s3.eu-west-2.amazonaws.com/therapeutics" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Therapeutic</p></a>
+                        <a href="https://main.d5h7r8fqfqlck.amplifyapp.com/therapeutics" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Therapeutic</p></a>
                       </li>
                       {/* <li className="nav-item has-treeview">
                         <a href="#" className="nav-link">
