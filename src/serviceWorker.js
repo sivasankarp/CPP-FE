@@ -11,7 +11,7 @@
 // opt-in, read https://bit.ly/CRA-PWA
 
 const isLocalhost = Boolean(
-  window.location.hostname === 'http://35.178.91.217:3003' ||
+  window.location.hostname === 'https://main.d5h7r8fqfqlck.amplifyapp.com/' ||
     // [::1] is the IPv6 localhost address.
     window.location.hostname === '[::1]' ||
     // 127.0.0.0/8 are considered localhost for IPv4.
@@ -43,7 +43,7 @@ export function register(config) {
         navigator.serviceWorker.ready.then(() => {
           console.log(
             'This web app is being served cache-first by a service ' +
-              'worker. http://35.178.91.217:3003'
+              'worker. https://main.d5h7r8fqfqlck.amplifyapp.com/'
           );
         });
       } else {
@@ -71,7 +71,7 @@ function registerValidSW(swUrl, config) {
               // content until all client tabs are closed.
               console.log(
                 'New content is available and will be used when all ' +
-                  'tabs for this page are closed. http://35.178.91.217:3003'
+                  'tabs for this page are closed. https://main.d5h7r8fqfqlck.amplifyapp.com/'
               );
 
               // Execute callback

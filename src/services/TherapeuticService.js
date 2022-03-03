@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const THERAPEUTIC_API_BASE_URL = "http://35.178.91.217:3003";
+const THERAPEUTIC_API_BASE_URL = "https://main.d5h7r8fqfqlck.amplifyapp.com/";
 
 class TherapeuticService {
 
