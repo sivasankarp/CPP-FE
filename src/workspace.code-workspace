@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\cpp"
+		},
+		{
+			"path": "..\\..\\CPP-UI"
+		},
+		{
+			"path": "..\\..\\ross-api-Azure"
+		},
+		{
+			"path": "..\\..\\cpp-be"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\..\\xampp\\htdocs\\cpp-node\\cpp"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
