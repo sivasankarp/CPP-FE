@@ -7,7 +7,7 @@ export default class Menu extends Component {
               <aside className="main-sidebar sidebar-dark-primary elevation-4">
                 {/* Brand Logo */}
                 <a href="#" className="brand-link">
-                  <span className="brand-text font-weight-light">CPP Dashboard</span>
+                  <span className="brand-text font-weight-light">CPP App</span>
                 </a>
                 {/* Sidebar */}
                 <div className="sidebar">
@@ -18,13 +18,21 @@ export default class Menu extends Component {
                       {/* Add icons to the links using the .nav-icon class
                       with font-awesome or any other icon font library */}
                       <li className="nav-item">
-                        <a href="https://main.d5h7r8fqfqlck.amplifyapp.com/products" className="nav-link" ><i className="fas fa-circle nav-icon" /><p>Products</p></a>
+                        <a href="/products" className="nav-link" ><i className="fas fa-circle nav-icon" /><p>Products</p></a>
                       </li>
                       <li className="nav-item">
-                        <a href="https://main.d5h7r8fqfqlck.amplifyapp.com/indications" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Indication</p></a>
+                      <a
+          className="App-link"
+          href="products"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Try React
+        </a>
+                        <a href="/indications" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Indication</p></a>
                       </li>
                       <li className="nav-item">
-                        <a href="https://main.d5h7r8fqfqlck.amplifyapp.com/therapeutics" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Therapeutic</p></a>
+                        <a href="/therapeutics" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Therapeutic</p></a>
                       </li>
                       {/* <li className="nav-item has-treeview">
                         <a href="#" className="nav-link">
