@@ -21,14 +21,6 @@ export default class Menu extends Component {
                         <a href="/products" className="nav-link" ><i className="fas fa-circle nav-icon" /><p>Products</p></a>
                       </li>
                       <li className="nav-item">
-                      <a
-          className="App-link"
-          href="products"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Try React
-        </a>
                         <a href="/indications" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Indication</p></a>
                       </li>
                       <li className="nav-item">
