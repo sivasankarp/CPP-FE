@@ -24,8 +24,8 @@ class ListProductComponent extends Component {
     componentDidMount(){
         ProductService.getProducts().then((res) => {
             console.log('res',res.data.data);
-            // this.setState({ products: res.data});
-            this.setState({ products: res.data.data});
+            this.setState({ products: res.data});
+           // this.setState({ products: res.data.data});
         });
     }
 

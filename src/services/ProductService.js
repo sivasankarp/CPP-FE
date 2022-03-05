@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const PRODUCT_API_BASE_URL = "https://main.d5h7r8fqfqlck.amplifyapp.com/";
+const PRODUCT_API_BASE_URL = "https://main.d5h7r8fqfqlck.amplifyapp.com";
 
 class ProductService {
 

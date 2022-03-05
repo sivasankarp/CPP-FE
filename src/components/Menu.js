@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Link, NavLink } from "react-router-dom";
 
 export default class Menu extends Component {
+
     render() {
         return (
             <div>
@@ -18,28 +20,14 @@ export default class Menu extends Component {
                       {/* Add icons to the links using the .nav-icon class
                       with font-awesome or any other icon font library */}
                       <li className="nav-item">
-                        <a href="/products" className="nav-link" ><i className="fas fa-circle nav-icon" /><p>Products</p></a>
+                      <Link className="nav-link" to="/products">Products</Link>
                       </li>
                       <li className="nav-item">
-                        <a href="/indications" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Indication</p></a>
+                      <Link className="nav-link" to="/indications">Products</Link>
                       </li>
                       <li className="nav-item">
-                        <a href="/therapeutics" className="nav-link"><i className="fas fa-circle nav-icon" /><p>Therapeutic</p></a>
+                      <Link className="nav-link" to="/therapeutics">Products</Link>
                       </li>
-                      {/* <li className="nav-item has-treeview">
-                        <a href="#" className="nav-link">
-                          <i className="nav-icon fas fa-circle" /><p>Products <i className="right fas fa-angle-left" /></p>
-                        </a>
-                        <ul className="nav nav-treeview">
-                          <li className="nav-item">
-                            <a href="/" className="nav-link"><i className="far fa-circle nav-icon" /><p>Product Add</p>
-                            </a>
-                          </li>
-                          <li className="nav-item has-treeview"><a href="#" className="nav-link">  <i className="far fa-circle nav-icon" />  <p>  Product List    <i className="right fas fa-angle-left" />  </p>
-                            </a>
-                            </li>
-                        </ul>
-                      </li> */}
                     </ul>
                   </nav>
                   {/* /.sidebar-menu */}
